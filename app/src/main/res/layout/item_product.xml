@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:elevation="8dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/itemprod_img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_media_24"></ImageView>
+            <TextView
+                android:id="@+id/itemprod_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple watch"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"></TextView>
+            <TextView
+                android:id="@+id/itemprod_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price: 1000000vnd"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:src="@drawable/iconnew_w512"></ImageView>
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

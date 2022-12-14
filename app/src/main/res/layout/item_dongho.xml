@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:elevation="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/itemdh_img"
+            android:layout_height="120dp"
+            android:layout_weight="3"
+            android:src="@drawable/iconnew_w512">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_weight="7">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/itemdh_name"
+                android:text="Name Product"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:id="@+id/itemdh_id"
+                android:text="Name Product"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/itemdh_price"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_light"
+                android:text="Price: 1000000"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="16sp"
+                android:id="@+id/itemdh_details"
+                android:layout_marginTop="5dp" android:textColor="@android:color/black"
+                android:text="Details"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

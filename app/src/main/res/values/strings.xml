@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppPKLuxury</string>
+    <string name="price_1250000_vnd">Price: 1250000 vnd</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+</resources>
